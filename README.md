@@ -1,24 +1,38 @@
-# README
+# Todos
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+This app uses Test Driven Development in building this Todo App. 
 
-Things you may want to cover:
+## Built With
 
-* Ruby version
+- Ruby 2.7.1
+- Rails 6.0.3
+- SQLite
+> ## Testing Tools
+- Rspec-Rails
+- Capybara
 
-* System dependencies
+### Usage
+- Clone this repo into your desired folder
+- change directory into the project folder
+- Run bunlde install to install all gems
+- Fire up rails server with `rails server` in your terminal
 
-* Configuration
+👤 **Adewale Orotayo**
 
-* Database creation
+- Github: [@didymus707](https://github.com/didymus707)
+- Twitter: [@Didy707](https://twitter.com/didy707)
+- Linkedin: [linkedin](https://linkedin.com/adewale-thomas-orotayo)
 
-* Database initialization
+## Acknowledgements
+- [Thoughtbot's Test Driven Rails](https://thoughtbot.com/upcase/test-driven-rails)
 
-* How to run the test suite
+## 🤝 Contributing
 
-* Services (job queues, cache servers, search engines, etc.)
+Contributions, issues and feature requests are welcome!
 
-* Deployment instructions
+Feel free to check the [issues page](https://github.com/https://github.com/didymus707/private-events/issues).
 
-* ...
+## Show your support
+
+Give a ⭐️ if you like this project!
+
