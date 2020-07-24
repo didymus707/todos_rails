@@ -13,3 +13,12 @@
  *= require_tree .
  *= require_self
  */
+
+
+ .todos li {
+   list-style-type: none;
+ }
+
+ .completed {
+   text-decoration: line-through;
+ }

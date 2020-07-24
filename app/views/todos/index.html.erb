@@ -2,6 +2,11 @@
 
 <ul class="todos">
   <% @todos.each do |todo| %>
-    <li><%= todo.title %></li>
+    <label>
+      <li class=<%= 'completed' if todo.completed? %>>
+        <%= check_box(:todo, 'title', {})%> <%= todo.title %>
+        <%= button_to 'Mark Complete', todo_completion_path(todo) %>
+      </li>
+    </label>
   <% end %>
 </ul>
