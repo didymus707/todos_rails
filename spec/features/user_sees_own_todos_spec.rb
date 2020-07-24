@@ -6,6 +6,6 @@ feature 'User sees own todo' do
 
     sign_in_as 'someone_else@example.com'
 
-    expect(page).not_to have_css '.todos li', text: 'Tidy up'
+    expect(page).not_to display_todo 'Tidy up'
   end
 end

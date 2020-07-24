@@ -4,7 +4,7 @@
   <% @todos.each do |todo| %>
     <label>
       <li class=<%= 'completed' if todo.completed? %>>
-        <%= check_box(:todo, 'title', {})%> <%= todo.title %>
+        <%= todo.title %>
         <%= button_to 'Mark Complete', todo_completion_path(todo) %>
       </li>
     </label>
