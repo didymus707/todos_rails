@@ -19,7 +19,7 @@ module Features
     have_css '.todos li', text: todo_title
   end
 
-  def display_compeleted_todo(todo_title)
-    have_css '.todos li.completed', text:
+  def display_completed_todo(todo_title)
+    have_css '.todos li.completed', text: todo_title
   end
 end
